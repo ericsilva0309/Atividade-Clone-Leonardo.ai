@@ -1,0 +1,68 @@
+.features {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.feature-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.feature-card {
+    background: linear-gradient(#0E1011, #09090a);
+    border: 1px solid #585858;
+    border-radius: 8px;
+    padding: 10px;
+    width: 20%;
+    margin: 20px;
+    margin-top: -100px;
+    transition: transform 0.2s;
+    height: 80px;
+    /* Defina a altura desejada */
+    overflow: hidden;
+    /* Oculte o conteúdo que exceder a altura */
+    text-align: left;
+    /* Alinha o texto à esquerda */
+}
+
+.feature-card h3 {
+    font-size: 1em;
+    /* Ajuste o tamanho da fonte do título */
+    margin: 0;
+    /* Remove a margem padrão */
+}
+
+.feature-card p {
+    font-size: 0.5em;
+    /* Ajuste o tamanho da fonte do parágrafo */
+    margin: 20;
+    /* Remove a margem padrão */
+}
+
+.feature-card:hover {
+    transform: scale(1.01);
+    border-color: #a407e2;
+    /* Cor da borda no hover */
+    box-shadow: 0 0 5px #2f0352, 0 0 8px #2f0352;
+    /* Efeito de glow */
+}
+
+.featuredIn {
+    text-align: center;
+    align-items: center;
+}
+
+.featuredIn img {
+    margin-top: -20px;
+    margin: 10px;
+    padding: 10px;
+    width: 70px;
+    size: 20px;
+}
+
+.featuredIn h1 {
+    margin-top: 30px;
+    margin-bottom: 2px;
+    color: #ACAFBB;
+    font-size: 12px;
+}

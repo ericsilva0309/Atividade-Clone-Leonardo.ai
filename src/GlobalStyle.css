@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Sofadi+One&display=swap');
+
+
+body {
+  background-image: url('./components/images/bg-new-h-nogrid-1920x1095.png');
+  background-size: 100%;
+  background-position: center -20px;
+  background-repeat: no-repeat;
+  background-color: #06080D; /* Fundo preto para complementar */
+  margin-top: 50px;
+  padding: 0;
+  font-family: "Plus Jakarta Sans", Arial, Helvetica, sans-serif;
+  color: #ffffff;
+}
