@@ -14,7 +14,7 @@ import {
   HInput,
   ImageContainer, // Importando o novo container para a imagem
 } from "./style"; 
-import { FaApple, FaGoogle, FaMicrosoft } from "react-icons/fa";
+import { FaApple, FaGoogle, FaGooglePlay, FaMicrosoft } from "react-icons/fa";
 
 export const Login = () => {
   const handleLogin = () => {
@@ -59,8 +59,8 @@ export const Login = () => {
         <Footer>
           <p>Available now on iOS and Android</p>
           <div className="store-icons">
-            <img src="appstore.png" alt="App Store" />
-            <img src="googleplay.png" alt="Google Play" />
+            <FaApple />
+            <FaGooglePlay />
           </div>
           <div className="footer-links">
             <a href="#">Privacy Policy</a>
