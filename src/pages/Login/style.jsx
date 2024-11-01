@@ -209,7 +209,7 @@ export const ImageContainer = styled.div`
   padding: 0px;
 
   img {
-    max-width: 690px;
+    max-width: 655px;
     height: auto;
     left: 1000px;
     border-top-right-radius: 10px;

@@ -18,33 +18,25 @@
     margin-top: -100px;
     transition: transform 0.2s;
     height: 80px;
-    /* Defina a altura desejada */
     overflow: hidden;
-    /* Oculte o conteúdo que exceder a altura */
     text-align: left;
-    /* Alinha o texto à esquerda */
 }
 
 .feature-card h3 {
     font-size: 1em;
-    /* Ajuste o tamanho da fonte do título */
     margin: 0;
-    /* Remove a margem padrão */
 }
 
 .feature-card p {
     font-size: 0.5em;
-    /* Ajuste o tamanho da fonte do parágrafo */
     margin: 20;
-    /* Remove a margem padrão */
 }
 
 .feature-card:hover {
     transform: scale(1.01);
     border-color: #a407e2;
-    /* Cor da borda no hover */
     box-shadow: 0 0 5px #2f0352, 0 0 8px #2f0352;
-    /* Efeito de glow */
+
 }
 
 .featuredIn {
